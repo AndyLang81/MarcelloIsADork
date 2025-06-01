@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Villa Paesano – Luxury summer rental in the Rieti Valley of Italy. Secluded countryside retreat with panoramic views, modern comforts, and traditional charm.">
     <title>Villa Paesano - Luxury Summer Rental near Rieti</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
+
 <body>
-    <nav>
+    <nav role="navigation" aria-label="Main navigation">
         <div class="nav-container">
             <a href="#home" class="logo">Villa Paesano</a>
-            <ul class="nav-links">
+            <div class="language-switcher">
+                <a href="index.html" title="English">EN</a>
+                <a href="index-it.html" title="Italiano">IT</a>
+                <a href="index-de.html" title="Deutsch">DE</a>
+                <a href="index-fr.html" title="Français">FR</a>
+                <a href="index-es.html" title="Español">ES</a>
+            </div>
+            <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+            <ul class="nav-links" id="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#history">History</a></li>
@@ -34,13 +49,19 @@
     <section id="about" class="section">
         <div class="container">
             <h2 class="section-title">Your Private Valley Retreat</h2>
-            
+
             <div class="content-section">
                 <div class="content-row">
                     <div class="content-text">
                         <h3>A Journey to Tranquility</h3>
-                        <p>Villa Paesano is reached by a <span class="highlight-text">kilometer of enchanting forest road</span>, ensuring complete privacy and serenity. As you wind through the woodland approach, the stresses of modern life fade away, replaced by the gentle whisper of ancient trees and the promise of absolute peace.</p>
-                        <p>Our villa is <span class="highlight-text">nestled in a secluded valley</span>, surrounded by breathtaking views over pristine woods and centuries-old olive groves that stretch to the horizon. This is more than accommodation—it's a return to the authentic rhythm of Italian countryside living.</p>
+                        <p>Villa Paesano is reached by a <span class="highlight-text">kilometer of enchanting forest
+                                road</span>, ensuring complete privacy and serenity. As you wind through the woodland
+                            approach, the stresses of modern life fade away, replaced by the gentle whisper of ancient
+                            trees and the promise of absolute peace.</p>
+                        <p>Our villa is <span class="highlight-text">nestled in a secluded valley</span>, surrounded by
+                            breathtaking views over pristine woods and centuries-old olive groves that stretch to the
+                            horizon. This is more than accommodation—it's a return to the authentic rhythm of Italian
+                            countryside living.</p>
                     </div>
                     <div class="placeholder-img">🌲 Forest Road Approach</div>
                 </div>
@@ -49,38 +70,50 @@
                     <div class="placeholder-img">🏡 Villa in the Valley</div>
                     <div class="content-text">
                         <h3>Elegant Comfort</h3>
-                        <p>Villa Paesano offers refined comfort with <span class="highlight-text">three spacious double bedrooms</span> and <span class="highlight-text">one charming single bedroom</span>, thoughtfully designed to accommodate up to seven guests. Three full bathrooms ensure privacy and convenience for all.</p>
-                        <p>Every detail has been carefully curated to blend rustic Italian charm with modern luxury, creating an atmosphere of effortless elegance that honors both tradition and comfort.</p>
+                        <p>Villa Paesano offers refined comfort with <span class="highlight-text">three spacious double
+                                bedrooms</span> and <span class="highlight-text">one charming single bedroom</span>,
+                            thoughtfully designed to accommodate up to seven guests. Three full bathrooms ensure privacy
+                            and convenience for all.</p>
+                        <p>Every detail has been carefully curated to blend rustic Italian charm with modern luxury,
+                            creating an atmosphere of effortless elegance that honors both tradition and comfort.</p>
                     </div>
                 </div>
             </div>
 
             <div class="full-width-content">
                 <h3>Welcome to Our Family</h3>
-                <p>Villa Paesano is lovingly maintained by <span class="highlight-text">Marcello and Valeria</span>, who have poured their hearts into creating a sanctuary where guests become part of our extended Italian family. Their passion for hospitality and attention to detail ensures every moment of your stay is extraordinary.</p>
+                <p>Villa Paesano is lovingly maintained by <span class="highlight-text">Marcello and Valeria</span>, who
+                    have poured their hearts into creating a sanctuary where guests become part of our extended Italian
+                    family. Their passion for hospitality and attention to detail ensures every moment of your stay is
+                    extraordinary.</p>
                 <div class="owners-signature">— Marcello & Valeria</div>
             </div>
 
             <div class="dog-welcome">
                 <h4>🐕 Four-Legged Family Members Welcome</h4>
-                <p>We understand that your beloved dogs are family too. Villa Paesano warmly welcomes well-behaved canine companions to enjoy the expansive grounds, forest walks, and peaceful valley atmosphere alongside you.</p>
+                <p>We understand that your beloved dogs are family too. Villa Paesano warmly welcomes well-behaved
+                    canine companions to enjoy the expansive grounds, forest walks, and peaceful valley atmosphere
+                    alongside you.</p>
             </div>
 
             <div class="amenities-grid">
                 <div class="amenity-card">
                     <span class="amenity-icon">🏊‍♀️</span>
                     <h4>Private Swimming Pool</h4>
-                    <p>Crystal-clear waters with panoramic valley views, perfect for morning swims and sunset relaxation</p>
+                    <p>Crystal-clear waters with panoramic valley views, perfect for morning swims and sunset relaxation
+                    </p>
                 </div>
                 <div class="amenity-card">
                     <span class="amenity-icon">🍳</span>
                     <h4>Gourmet Kitchen</h4>
-                    <p>Fully equipped modern kitchen for culinary adventures with local ingredients and family recipes</p>
+                    <p>Fully equipped modern kitchen for culinary adventures with local ingredients and family recipes
+                    </p>
                 </div>
                 <div class="amenity-card">
                     <span class="amenity-icon">🌿</span>
                     <h4>Panoramic Terraces</h4>
-                    <p>Multiple outdoor spaces for al fresco dining and contemplating the ever-changing valley vistas</p>
+                    <p>Multiple outdoor spaces for al fresco dining and contemplating the ever-changing valley vistas
+                    </p>
                 </div>
                 <div class="amenity-card">
                     <span class="amenity-icon">🔥</span>
@@ -104,21 +137,30 @@
     <section id="history" class="section">
         <div class="container">
             <h2 class="section-title">A Legacy of Serenity</h2>
-            
+
             <div class="content-row">
                 <div class="placeholder-img">📜 Historical Villa Archives</div>
                 <div class="content-text">
                     <h3>Centuries of Italian Heritage</h3>
-                    <p>Villa Paesano stands as a testament to Italian craftsmanship and the enduring appeal of countryside living. Originally built in the 18th century as a <span class="highlight-text">noble family's summer retreat</span>, the villa has witnessed generations of Italian history unfold in this tranquil valley.</p>
-                    <p>The property's name, "Paesano," meaning "countryman" or "fellow villager," reflects its deep connection to the local community and the timeless tradition of Italian hospitality.</p>
+                    <p>Villa Paesano stands as a testament to Italian craftsmanship and the enduring appeal of
+                        countryside living. Originally built in the 18th century as a <span class="highlight-text">noble
+                            family's summer retreat</span>, the villa has witnessed generations of Italian history
+                        unfold in this tranquil valley.</p>
+                    <p>The property's name, "Paesano," meaning "countryman" or "fellow villager," reflects its deep
+                        connection to the local community and the timeless tradition of Italian hospitality.</p>
                 </div>
             </div>
 
             <div class="content-row reverse">
                 <div class="content-text">
                     <h3>Thoughtful Restoration</h3>
-                    <p>Marcello and Valeria have undertaken a <span class="highlight-text">meticulous restoration</span> that honors the villa's architectural heritage while incorporating modern luxuries. Original stone walls, hand-hewn beams, and traditional terracotta tiles have been preserved and enhanced.</p>
-                    <p>The surrounding olive groves, some trees over 300 years old, continue to produce the golden oil that has sustained this land for generations, connecting guests to an unbroken chain of Italian agricultural tradition.</p>
+                    <p>Marcello and Valeria have undertaken a <span class="highlight-text">meticulous restoration</span>
+                        that honors the villa's architectural heritage while incorporating modern luxuries. Original
+                        stone walls, hand-hewn beams, and traditional terracotta tiles have been preserved and enhanced.
+                    </p>
+                    <p>The surrounding olive groves, some trees over 300 years old, continue to produce the golden oil
+                        that has sustained this land for generations, connecting guests to an unbroken chain of Italian
+                        agricultural tradition.</p>
                 </div>
                 <div class="placeholder-img">🛠️ Restoration Details</div>
             </div>
@@ -128,21 +170,26 @@
     <section id="area" class="section">
         <div class="container">
             <h2 class="section-title">Discover the Rieti Valley</h2>
-            
+
             <div class="full-width-content">
                 <h3>The Geographic Heart of Italy</h3>
-                <p>Villa Paesano is perfectly positioned in the Lazio region, offering guests access to some of Italy's most treasured destinations while maintaining the profound peace that comes from true countryside seclusion.</p>
+                <p>Villa Paesano is perfectly positioned in the Lazio region, offering guests access to some of Italy's
+                    most treasured destinations while maintaining the profound peace that comes from true countryside
+                    seclusion.</p>
             </div>
 
             <div class="content-row">
                 <div class="content-text">
                     <h3>Cultural Treasures</h3>
                     <p><strong>🏛️ Historic Rieti:</strong> 15 minutes through scenic countryside<br>
-                    <strong>🏔️ Terminillo Mountain Resort:</strong> 30 minutes to alpine adventures<br>
-                    <strong>💎 Ancient Sanctuaries:</strong> Medieval monasteries and chapels<br>
-                    <strong>🍷 Local Vineyards:</strong> Award-winning wineries and tastings<br>
-                    <strong>⛪ Franciscan Heritage:</strong> Birthplace of St. Francis's ministry</p>
-                    <p>The valley setting provides a <span class="highlight-text">natural amphitheater</span> where every sunrise and sunset becomes a private performance, painted across the canvas of ancient hills.</p>
+                        <strong>🏔️ Terminillo Mountain Resort:</strong> 30 minutes to alpine adventures<br>
+                        <strong>💎 Ancient Sanctuaries:</strong> Medieval monasteries and chapels<br>
+                        <strong>🍷 Local Vineyards:</strong> Award-winning wineries and tastings<br>
+                        <strong>⛪ Franciscan Heritage:</strong> Birthplace of St. Francis's ministry
+                    </p>
+                    <p>The valley setting provides a <span class="highlight-text">natural amphitheater</span> where
+                        every sunrise and sunset becomes a private performance, painted across the canvas of ancient
+                        hills.</p>
                 </div>
                 <div class="placeholder-img">🗺️ Valley & Surroundings</div>
             </div>
@@ -151,8 +198,12 @@
                 <div class="placeholder-img">🌄 Panoramic Valley Views</div>
                 <div class="content-text">
                     <h3>Natural Splendor</h3>
-                    <p>The villa's valley location offers unparalleled natural beauty and outdoor opportunities. <span class="highlight-text">Velino-Sirente Regional Park</span> provides endless hiking trails, while the surrounding countryside invites leisurely walks through olive groves and meadows.</p>
-                    <p>Wildlife flourishes in this protected environment—guests often spot deer, wild boar, and countless bird species from the villa's terraces, creating a living connection to Italy's pristine natural heritage.</p>
+                    <p>The villa's valley location offers unparalleled natural beauty and outdoor opportunities. <span
+                            class="highlight-text">Velino-Sirente Regional Park</span> provides endless hiking trails,
+                        while the surrounding countryside invites leisurely walks through olive groves and meadows.</p>
+                    <p>Wildlife flourishes in this protected environment—guests often spot deer, wild boar, and
+                        countless bird species from the villa's terraces, creating a living connection to Italy's
+                        pristine natural heritage.</p>
                 </div>
             </div>
         </div>
@@ -161,20 +212,22 @@
     <section id="directions" class="section">
         <div class="container">
             <h2 class="section-title">Your Journey to Villa Paesano</h2>
-            
+
             <div class="content-row">
                 <div class="content-text">
                     <h3>Travel Details</h3>
                     <p><strong>From Rome:</strong> 1 hour scenic drive via A24 highway<br>
-                    <strong>From Rome Fiumicino Airport:</strong> 1.5 hours by car<br>
-                    <strong>From Rieti Station:</strong> 15 minutes through countryside<br>
-                    <strong>Nearest Airport:</strong> Rome Fiumicino (FCO)</p>
-                    
+                        <strong>From Rome Fiumicino Airport:</strong> 1.5 hours by car<br>
+                        <strong>From Rieti Station:</strong> 15 minutes through countryside<br>
+                        <strong>Nearest Airport:</strong> Rome Fiumicino (FCO)
+                    </p>
+
                     <div style="margin-top: 2rem;">
                         <h4 style="color: #8b6f47; margin-bottom: 1rem;">Transportation Recommendations:</h4>
                         <p><strong>🚗 Car Rental:</strong> Highly recommended for flexibility<br>
-                        <strong>🚌 Private Transfer:</strong> Comfortable door-to-door service<br>
-                        <strong>🚂 Train + Taxi:</strong> Scenic rail journey to Rieti</p>
+                            <strong>🚌 Private Transfer:</strong> Comfortable door-to-door service<br>
+                            <strong>🚂 Train + Taxi:</strong> Scenic rail journey to Rieti
+                        </p>
                     </div>
                 </div>
                 <div class="placeholder-img">🛣️ Scenic Route Map</div>
@@ -182,8 +235,12 @@
 
             <div class="full-width-content">
                 <h3>The Final Kilometer</h3>
-                <p>The <span class="highlight-text">kilometer-long forest road</span> to Villa Paesano is part of the experience—a gentle transition from the outside world to your private sanctuary. The tree-lined path winds through mature woodland, building anticipation for the spectacular valley reveal that awaits.</p>
-                <p style="font-style: italic; color: #8b6f47; margin-top: 1.5rem;">Detailed GPS coordinates and landmark directions provided upon booking confirmation.</p>
+                <p>The <span class="highlight-text">kilometer-long forest road</span> to Villa Paesano is part of the
+                    experience—a gentle transition from the outside world to your private sanctuary. The tree-lined path
+                    winds through mature woodland, building anticipation for the spectacular valley reveal that awaits.
+                </p>
+                <p style="font-style: italic; color: #8b6f47; margin-top: 1.5rem;">Detailed GPS coordinates and landmark
+                    directions provided upon booking confirmation.</p>
             </div>
         </div>
     </section>
@@ -191,53 +248,55 @@
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Begin Your Villa Paesano Experience</h2>
-            
+
             <div class="contact-form">
                 <form>
                     <div class="form-group">
                         <label for="name">Full Name</label>
                         <input type="text" id="name" name="name" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="email">Email Address</label>
                         <input type="email" id="email" name="email" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="checkin">Arrival Date</label>
                         <input type="date" id="checkin" name="checkin" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="checkout">Departure Date</label>
                         <input type="date" id="checkout" name="checkout" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="guests">Number of Guests</label>
                         <input type="number" id="guests" name="guests" min="1" max="7" required>
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="dogs">Traveling with Dogs?</label>
-                        <input type="text" id="dogs" name="dogs" placeholder="Please tell us about your canine companions">
+                        <input type="text" id="dogs" name="dogs"
+                            placeholder="Please tell us about your canine companions">
                     </div>
-                    
+
                     <div class="form-group">
                         <label for="message">Special Requests & Questions</label>
-                        <textarea id="message" name="message" rows="4" placeholder="Share your preferences and any special occasions we can help celebrate..."></textarea>
+                        <textarea id="message" name="message" rows="4"
+                            placeholder="Share your preferences and any special occasions we can help celebrate..."></textarea>
                     </div>
-                    
+
                     <button type="submit" class="submit-btn">Send Reservation Inquiry</button>
                 </form>
             </div>
-            
+
             <div class="full-width-content" style="margin-top: 4rem;">
                 <h3>Direct Contact with Marcello & Valeria</h3>
                 <p><strong>Email:</strong> info@villapaesano-rieti.com</p>
@@ -253,6 +312,7 @@
         <div class="footer-signature">Lovingly hosted by Marcello & Valeria</div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
+
 </html>
