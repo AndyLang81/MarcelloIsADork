@@ -480,3 +480,45 @@ nav {
     }
     
     .section-title {
+        font-size: 2.8rem;
+    }
+
+    .nav-container {
+        padding: 0 2rem;
+    }
+
+    .container {
+        padding: 0 2rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .logo {
+        font-size: 1.8rem;
+    }
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #3d3530, #2d2520);
+    color: #faf7f0;
+    text-align: center;
+    padding: 3rem 0;
+    margin-top: 4rem;
+}
+
+footer p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-signature {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #a68759;
+    margin-top: 1rem;
+}
